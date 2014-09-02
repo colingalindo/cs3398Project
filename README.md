@@ -3,4 +3,4 @@ cs3398Project
 
 Project for CS3398
 
-Test commit
+When commiting please start the commit message with the JIRA ticket number, git commit -m"CS-?? Did this or whatever" files/to/commit
