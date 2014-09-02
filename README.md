@@ -5,4 +5,4 @@ Project for CS3398
 
 When commiting please start the commit message with the JIRA ticket number, git commit -m"CS-?? Did this or whatever" files/to/commit
 
-Testing build hook
+still Testing build hook
