@@ -24,4 +24,16 @@
         android:layout_centerHorizontal="true"
         android:onClick="settingsButton" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sam Pehr"
+        android:id="@+id/button"
+        android:layout_toEndOf="@+id/btnGenCurTime"
+        android:onClick="goToSamPageActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="99dp" />
+
 </RelativeLayout>
