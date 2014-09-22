@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:text="Sam Pehr"
         android:id="@+id/button"
-        android:layout_toEndOf="@+id/btnGenCurTime"
+        android:layout_toEndOf="@+id/textView"
         android:onClick="goToSamPageActivity"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
