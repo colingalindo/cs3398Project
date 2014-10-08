@@ -4,5 +4,6 @@
     <string name="app_name">CS3398 Project</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_sam_page">SamPageActivity</string>
 
 </resources>
