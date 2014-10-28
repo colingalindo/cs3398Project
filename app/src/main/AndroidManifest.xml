@@ -24,6 +24,18 @@
             android:name=".SamPageActivity"
             android:label="@string/title_activity_sam_page" >
         </activity>
+        <activity
+            android:name=".LoginPage"
+            android:label="@string/title_activity_login_page" >
+        </activity>
+        <activity
+            android:name=".AccountCreation"
+            android:label="@string/title_activity_account_creation" >
+        </activity>
+        <activity
+            android:name=".login_page"
+            android:label="@string/title_activity_login_page" >
+        </activity>
     </application>
 
 </manifest>
