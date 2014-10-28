@@ -32,7 +32,10 @@ public class UserRestClient {
 
     public static void createUser(String username, String password, String first_name,
                                      String last_name, String e_mail, String work_number,
-                                     String mobile_number){
+                                     String mobile_number, int role){
+
+        //role of 0 = student
+        //role of 1 = tutor
 
         RequestParams parameters = new RequestParams();
         parameters.put("Username", username);
@@ -42,6 +45,7 @@ public class UserRestClient {
         parameters.put("E-Mail", e_mail);
         parameters.put("WorkNumber", work_number);
         parameters.put("MobileNumber", mobile_number);
+        parameters.put("Role", role);
 
         post(null, parameters, new JsonHttpResponseHandler() {
             @Override
