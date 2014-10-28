@@ -9,7 +9,7 @@
     tools:context="com.greenteam.cs3398project.SamPageActivity">
 
     <TextView
-        android:text="look i did this"
+        android:text="look i did this isn't it cool"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
