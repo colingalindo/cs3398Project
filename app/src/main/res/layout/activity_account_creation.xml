@@ -63,7 +63,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
+        android:inputType="text"
         android:ems="10"
         android:id="@+id/userName"
         android:layout_below="@+id/usernameLabel"
@@ -103,12 +103,12 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/email"
         android:layout_below="@+id/emailLabel"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:inputType="textEmailAddress" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -123,12 +123,13 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
         android:ems="10"
         android:id="@+id/phoneNumber"
         android:layout_below="@+id/phoneNumberLabel"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:phoneNumber="true"
+        android:inputType="phone" />
 
     <Button
         android:layout_width="wrap_content"
@@ -140,6 +141,8 @@
         android:layout_toRightOf="@+id/lastNameLabel"
         android:layout_alignRight="@+id/phoneNumber"
         android:layout_alignEnd="@+id/phoneNumber"
-        android:clickable="true" />
+        android:clickable="true"
+        android:onClick="createUser(userName, password, firstName, lastName, email, phoneNumber, phoneNumber)"
+        android:nestedScrollingEnabled="false" />
 
 </RelativeLayout>
