@@ -5,5 +5,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_sam_page">SamPageActivity</string>
-
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_account_creation">AccountCreation</string>
+    <string name="firstNameLabel_activity_account_creation">First Name</string>
+    <string name="lastNameLabel_activity_account_creation">Last Name</string>
+    <string name="passwordLabel_activity_account_creation">Password</string>
+    <string name="usernameLabel_activity_account_creation">Username</string>
+    <string name="emailLabel_activity_account_creation">E-mail</string>
+    <string name="phoneNumberLabel_activity_account_creation">Phone</string>
 </resources>

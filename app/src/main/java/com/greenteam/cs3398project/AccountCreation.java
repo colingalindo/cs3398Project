@@ -1,26 +1,24 @@
 package com.greenteam.cs3398project;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class MainActivity extends Activity {
+public class AccountCreation extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_account_creation);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
+        getMenuInflater().inflate(R.menu.account_creation, menu);
         return true;
     }
 
@@ -31,24 +29,8 @@ public class MainActivity extends Activity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-            Intent intent = new Intent(this, SettingsActivity.class);
-            startActivity(intent);
+            return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void settingsButton(View v) {
-        Intent intent = new Intent(this, SettingsActivity.class);
-        startActivity(intent);
-    }
-
-    public void goToSamPageActivity(View v){
-        Intent intent = new Intent(this, SamPageActivity.class);
-        startActivity(intent);
-    }
-
-    public void goToAccountCreation(View v){
-        Intent intent = new Intent(this, AccountCreation.class);
-        startActivity(intent);
     }
 }
