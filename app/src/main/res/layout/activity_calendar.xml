@@ -10,7 +10,8 @@
         android:text="Home"
         android:id="@+id/go_home"
         android:clickable="true"
-        android:focusableInTouchMode="true" />
+        android:focusableInTouchMode="true"
+        android:onClick="HomeButtonClick" />
 
     <CalendarView
         android:layout_width="match_parent"

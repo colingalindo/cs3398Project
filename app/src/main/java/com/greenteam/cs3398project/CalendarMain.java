@@ -26,6 +26,8 @@ import java.util.Calendar;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class Main extends Activity {
     @Override
@@ -44,4 +46,8 @@ public class Main extends Activity {
 //        cal.set(2012, Calendar.DECEMBER,12);
 //        mv.GoToDate(cal.getTime());
     }
+
+public void HomeButtonClick(View v){
+    Button button=(Button) v;
+    ((Button) v).setText("Button Works!");
 }
