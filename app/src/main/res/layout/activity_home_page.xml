@@ -3,7 +3,8 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
     android:weightSum="1"
-    android:background="@drawable/ic_launcher">
+    android:background="@drawable/Texas_State_Bobcats2"
+    android:baselineAligned="true">
 
     <TextView
         android:layout_width="wrap_content"
